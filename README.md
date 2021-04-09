@@ -1,0 +1,9 @@
+# Description 
+
+The Solve for X hackathon had the prompt: "how can we help women during the COVID-19 pandemic as they are disproportionately affected?" With this mindset, our team decided that we 
+wanted to make a website aimed at helping pregnant women. Here was our pitch to the judges:
+
+"Let me introduce to you “The Cradle”. an all-in-one website for any pregnancy related need during this pandemic. We specifically focus on pregnant women who have access to technology With this web app, we aim to create a community through both input and output-based factors. Allowing this website to be interactive through forums and blogs fosters an environment of community-building. Additional functionalities restore intimacy between pregnant women. Furthermore we have Chat Rooms that women can use to create deeper friendships and talk to others. This is another fun way that The Cradle creates community and friendships. Besides inter-patient community, feeling connected with caregivers is more important now than ever, which is why The Cradle also offers a direct 24/7 line to medical professionals. When we think of medical professionals often we first think of first responders. Therefore one might think that we do not have enough people and resources during this pandemic to actually get use out of the direct line. However we plan to get in contact with doula, midwives and retired medical professionals that are not able to be on the front lines of this pandemic but still have a desire to help."
+
+Despite only being able to flush out the idea by itself during the hackathon, I aimed afterwards to bring this website into fruition and code it myself. Currently, you will
+find the HTML and CSS generally completed, while I am currently working on adding react components in the form of the aforementioned blogs and forum. 
