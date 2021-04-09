@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  /* PADDING & MARGINS */
+  --base-px-xs: 4px;
+  --base-px-sm: 8px;
+  --base-px-m: 24px;
+  --base-px-lg: 48px;
+  --base-px-xlg: 96px;
+
+  /* COLOR SCHEME */
+  --slate: #30393f;
+  --dark-slate:#22282c;
+  --green: #e5f7ed;
+  --purple: #9890e3;
+  --pink: #ffd1f0;
+  --white: white;
+  --faint-green: #b1f4cf3d;
+  --faint-purple: #9890e348;
+  --black: black;
+}
+
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Montserrat, Raleway;
+}
+
+h1 {
+	font-size: 500%;
+	padding: var(--base-px-m) 0;
+	font-family: "Dancing Script";
+	color: var(--pink);
+    position: relative;
+}
+
+h3 {
+	font-size: 80%;
+
+}
+
+.container {
+	width:100%;
+	padding: var(--base-px-xlg) calc(var(--base-px-xlg)*2.25);
+	justify-content: center;
+	text-align: center;
+  }
+
+.top{
+	color: black;
+	background-color:var(--pink);
+	/* color: white;
+	text-shadow: 0 0 var(--base-px-xs) var(--dark-slate);
+	background: linear-gradient(to top, var(--pink) 0%, var(--purple) 100%);
+*/	
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom:20px;
+	font-size: 30px;
+		width:100%;
+	position: relative;
+	z-index: 2;
+
+/*
+	width:100%;
+	position: fixed;
+*/
+}
+
+
+
+
+.header {
+	text-align: center;
+	border-bottom: var(--base-px-sm) solid  var(--pink);
+	padding: var(--base-px-sm);
+	width:100%;
+	position: relative;
+	background-color: white;
+	z-index:2;
+
+/*
+	position: fixed;
+	width:100%;
+*/
+}
+
+.header a {
+	padding: var(--base-px-m);
+	color: black;
+	font-size: 100%;
+	text-decoration: none;
+}
+
+
+
+
+.slogan {
+	position: relative;
+	padding: 400px;
+	background-image: url("../image/doctor.png");
+	background-repeat: no-repeat;
+	/* background-size: contain; */
+	background-size: 100% 100%;
+}
+
+.slogan h1 {
+	color: white;
+	text-shadow: 0 0 var(--base-px-sm) var(--dark-slate);
+	width:100%;
+}
+
+.slogan h2 {
+	font-size: 200%;
+	color: white;
+	text-shadow: 0 0 var(--base-px-xs) var(--dark-slate);
+	width: 100%; 
+}
+
+
+
+
+.intro h1{
+	font-family: "Dancing Script";
+}
+
+.intro {
+	border-bottom: 10px solid var(--pink);
+	border-top: 10px solid  var(--pink);
+    position: relative;
+	margin: var(--base-px-xlg) 0;
+	padding: var(--base-px-lg) 0;
+}
+
+.intro p {
+	margin-top: 75px;
+	font-size: 1.25em;
+	font-family: Raleway;
+	line-height: 1.5;
+	letter-spacing:1.3;
+	padding: 0 var(--base-px-xlg);
+	padding-bottom: var(--base-px-xlg);
+	/* width: 800px; */
+	
+	position: relative;
+	/* left: 250px; */
+}
+
+
+
+
+.blog h2 {
+	font-size: 75px;
+	margin: 200px;
+	font-family: "Dancing Script";
+	color:  var(--pink);
+}
+
+
+
+
+.contact {
+  background: linear-gradient(to top, var(--white) 0%, var(--pink) 100%);
+  margin-top: var(--base-px-xlg);
+	margin: 200px 0;
+	color: black;
+	width: 100%;
+}
+.contact h1 {
+	color: var(--white);
+	text-shadow: 0 0 var(--base-px-xs) var(--slate);
+	
+}
+.contact-info{
+	font-size: 150%;
+	padding: calc(var(--base-px-m)*1.5);
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.title{
+	padding-top: 300px; 
+
+	padding-bottom: 200px; 
+
+
+	
+	
+}
+
+#QandA{
+	margin: auto;
+	width: 75%;
+}
+
+.Q {
+	font-size: 50px;
+	color: var(--pink);
+	letter-spacing: 0.2mm;
+}
+
+.A {
+	margin: 65px;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+
